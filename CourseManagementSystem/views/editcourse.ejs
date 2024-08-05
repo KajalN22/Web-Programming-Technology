@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/editcourse" method="post">
+        course id : <input type="text" name="cid" id="cid" value="<%=cors.cid%>" readonly><br>
+        course name:<input type="text" name="cname" id="cname" value="<%=cors.cname%>"><br>
+        fees: <input type="text" name="fees" id="fees"
+        value="<%=cors.fees%>"><br>
+        duration: <input type="text" name="duration" id="duration" value="<%=cors.duration%>"><br>
+        <button type="submit" name="btn" id="btn">edit course</button>
+    </form>
+</body>
+</html>
